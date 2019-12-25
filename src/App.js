@@ -28,9 +28,10 @@ function App() {
                 draggable
                 pauseOnHover
               />
-
+      
       <Router>
             <div>
+            <Navbar />
               <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/about" component={About} />
