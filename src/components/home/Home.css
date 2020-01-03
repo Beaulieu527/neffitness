@@ -3,7 +3,7 @@ header.masthead {
     background-color: #343a40;
     background: url("/assets/images/alora.jpg") no-repeat center center;
     background-size: cover;
-    padding-top: 8rem;
+    padding-top: 10rem;
     padding-bottom: 8rem;
   }
   
@@ -14,7 +14,7 @@ header.masthead {
     width: 100%;
     top: 0;
     left: 0;
-    opacity: 0.5;
+    opacity: 0.7;
   }
   
   header.masthead h1 {
