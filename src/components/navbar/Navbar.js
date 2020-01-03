@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="/">
-        New England Functional Fitness
+      <img src="./assets/images/logo.png" alt=""/>
       </a>
       <button
         className="navbar-toggler"
