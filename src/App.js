@@ -8,8 +8,8 @@ import Contact from './components/contact/Contact'
 import FitClasses from './components/fitness-class/FitClasses'
 import Training from './components/training/Training'
 import Deals from './components/deals/Deals'
-import Navbar from  './components/navbar/Navbar'
-import Footer from  './components/navbar/Footer'
+import Navbar from './components/navbar/Navbar'
+import Footer from './components/navbar/Footer'
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -17,32 +17,32 @@ import "react-toastify/dist/ReactToastify.css";
 function App() {
   return (
     <div className="App">
-       <ToastContainer
-                position="top-center"
-                autoClose={5000}
-                hideProgressBar={false}
-                newestOnTop={false}
-                closeOnClick
-                rtl={false}
-                pauseOnVisibilityChange
-                draggable
-                pauseOnHover
-              />
-      
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnVisibilityChange
+        draggable
+        pauseOnHover
+      />
+
       <Router>
-            <div>
-            <Navbar />
-              <Switch>
-                <Route exact path="/" component={Home} />
-                <Route path="/about" component={About} />
-                <Route path="/team" component={Team} />
-                <Route path="/contact" component={Contact} />
-                <Route path="/fitness-classes" component={FitClasses} />
-                <Route path="/training" component={Training} />
-                <Route path="/deals" component={Deals} />
-              </Switch>
-            </div>
-          </Router>
+        <div>
+          <Navbar />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/team" component={Team} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/fitness-classes" component={FitClasses} />
+            <Route path="/training" component={Training} />
+            <Route path="/deals" component={Deals} />
+          </Switch>
+        </div>
+      </Router>
     </div>
   );
 }
