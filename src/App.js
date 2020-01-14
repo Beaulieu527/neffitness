@@ -41,6 +41,7 @@ function App() {
             <Route path="/training" component={Training} />
             <Route path="/deals" component={Deals} />
           </Switch>
+          <Footer />
         </div>
       </Router>
     </div>
