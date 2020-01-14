@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="/">
-      <img src="./assets/images/logo.png" alt=""/>
+      <img src="./assets/images/logo.png" width="75px" height="75px" alt=""/>
       </a>
       <button
         className="navbar-toggler"
